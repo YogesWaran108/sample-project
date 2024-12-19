@@ -1,0 +1,39 @@
+.video-player-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .video-player-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .video-player-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .video-player-container video {
+    width: 80%;
+    max-width: 800px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .video-player-container .button-container {
+    margin-top: 20px;
+  }
+  
+  .video-player-container .button-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .video-player-container .button-container button:hover {
+    background-color: #0056b3;
+  }
